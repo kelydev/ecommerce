@@ -244,14 +244,6 @@ curl -X POST http://localhost:8080/api/carts/CART_ID/product/PRODUCT_ID \
   -H "Content-Type: application/json" \
   -d '{"quantity": 2}'
 ```
-
-## Notas Importantes
-
-- Los productos incluyen validaciones de stock y disponibilidad
-- Los carritos mantienen referencia a productos mediante ObjectId
-- Las vistas están optimizadas para SEO y accesibilidad
-- El código sigue las mejores prácticas de Node.js y Express
-
 ## URLs para Probar
 
 Una vez que tengas el servidor ejecutándose, puedes probar:
